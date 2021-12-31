@@ -1,0 +1,60 @@
+table
+{
+width:50%;
+margin:50px auto;
+
+}
+table,td,th
+{
+border: solid 1px black;
+border-collapse: collapse;
+}
+
+td,th{
+padding:10px;
+}
+th{
+    font-style: italic;
+    text-align:left;
+}
+h1{
+color:  #ff1493;
+font-size:60px;
+width:50%;
+margin-left:40%;
+margin-right:50%;
+
+}
+
+.btn{/*button class for making buttons change any of these settings as needed*/
+    display: inline-block;
+    padding: .375rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    background-color:#24a0ed;
+    color:white;
+    text-decoration: none;
+/*most of this is excess, really the main things you probably want are background color, border radius, cursor, text center, and to set the font size.*/
+}
+
+#top-div
+{
+width:50%;
+text-align:center;
+margin:auto;
+padding: 10px;
+}
+#empty_id{
+color: #ff69b4;
+margin: auto;
+width: 50%;
+text-align:center;
+padding: 10px;
+}
+}
