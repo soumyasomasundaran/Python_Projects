@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request, redirect, url_for
-import list_actions as la
 
 app = Flask(__name__)
 wish_list = []
