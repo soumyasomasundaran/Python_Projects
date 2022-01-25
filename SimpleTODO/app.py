@@ -17,9 +17,9 @@ def list_delete(item):
 @app.route('/', methods=['GET','POST'])
 def index():
     global wish_list
-    if request.method == 'POST':
-        if request.form['add_Button'] == 'Add':
-            item_added = request.form['item']
+    if request.method == 'POST':       
+        item_added = request.form['item']
+        if item_added != '':
             list_append(item_added)
     return render_template('index.html', wish_list=wish_list)
 
