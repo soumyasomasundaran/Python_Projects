@@ -1,7 +1,7 @@
 import requests
 import streamlit as st
 
-API_KEY = 'd37d1c729786e6646bc674b21e049c27'
+API_KEY = ''
 DEGREE_SIGN = u'\N{DEGREE SIGN}'
 
 
