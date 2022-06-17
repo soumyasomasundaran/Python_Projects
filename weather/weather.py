@@ -1,34 +1,50 @@
-import requests
 import streamlit as st
-API_KEY = 'd37d1c729786e6646bc674b21e049c27'
-DEGREE_SIGN = u'\N{DEGREE SIGN}'
+import requests
+API_KEY = "XXXXXXXXXXXXXXXXX"
+def convert_to_celcius(temperature_in_kelvin):
+    return temperature_in_kelvin -273.15
 
-
-def convert_to_celcius(k):
-    return k - 273.15
 
 
 def find_current_weather(city):
-    base_url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}"
+    base_url  = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}"
     weather_data = requests.get(base_url).json()
-    general = weather_data['weather'][0]['main']
-    icon_id = weather_data['weather'][0]['icon']
-    icon = "http://openweathermap.org/img/w/" + icon_id + ".png"
-    temperature = round(convert_to_celcius(weather_data['main']['temp']))
-    return general, temperature, icon
+    try:
+        general = weather_data['weather'][0]['main']
+        icon_id = weather_data['weather'][0]['icon']
+        temperature = round(convert_to_celcius(weather_data['main']['temp']))
+        icon = f"http://openweathermap.org/img/wn/{icon_id}@2x.png"
+    except KeyError:
+        st.error("City Not Found")
+        st.stop()
+    return general,temperature,icon
+
+
+
 
 
 def main():
     st.header("Find the Weather")
-    city = (st.text_input("Enter the city")).lower()
-    if st.button('find'):
-        general, temp, icon = find_current_weather(city)
-        st.write(f"Now in {city}")
-        with st.container():
-            st.metrics(f"{temp}{DEGREE_SIGN}C")
-            st.header(general)
+    city = st.text_input("Enter the City").lower()
+    if st.button("Find"):
+        general,temperature,icon = find_current_weather(city)
+        col_1,col_2 = st.columns(2)
+        with col_1:
+            st.metric(label = "Temperature",value=f"{temperature}°C")
+        with col_2:
+            st.write(general)
             st.image(icon)
+    
 
 
+
+
+
+
+
+
+
+
+    
 if __name__ == '__main__':
     main()
