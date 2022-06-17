@@ -12,6 +12,8 @@ Download the source code from the repository (snakegame.py) file and the image a
 
 Run the code
 
+```python snake_game.py```
+
 
 # Prerequisite
 - Python
