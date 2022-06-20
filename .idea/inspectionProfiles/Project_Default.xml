@@ -1,0 +1,61 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="41">
+            <item index="0" class="java.lang.String" itemvalue="wasabi" />
+            <item index="1" class="java.lang.String" itemvalue="spacy-loggers" />
+            <item index="2" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="3" class="java.lang.String" itemvalue="MarkupSafe" />
+            <item index="4" class="java.lang.String" itemvalue="numpy" />
+            <item index="5" class="java.lang.String" itemvalue="requests" />
+            <item index="6" class="java.lang.String" itemvalue="spacy-legacy" />
+            <item index="7" class="java.lang.String" itemvalue="srsly" />
+            <item index="8" class="java.lang.String" itemvalue="Jinja2" />
+            <item index="9" class="java.lang.String" itemvalue="preshed" />
+            <item index="10" class="java.lang.String" itemvalue="spacy" />
+            <item index="11" class="java.lang.String" itemvalue="certifi" />
+            <item index="12" class="java.lang.String" itemvalue="smart-open" />
+            <item index="13" class="java.lang.String" itemvalue="lxml" />
+            <item index="14" class="java.lang.String" itemvalue="soupsieve" />
+            <item index="15" class="java.lang.String" itemvalue="blis" />
+            <item index="16" class="java.lang.String" itemvalue="urllib3" />
+            <item index="17" class="java.lang.String" itemvalue="itsdangerous" />
+            <item index="18" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="19" class="java.lang.String" itemvalue="Flask" />
+            <item index="20" class="java.lang.String" itemvalue="Flask-Session" />
+            <item index="21" class="java.lang.String" itemvalue="beautifulsoup4" />
+            <item index="22" class="java.lang.String" itemvalue="pydantic" />
+            <item index="23" class="java.lang.String" itemvalue="six" />
+            <item index="24" class="java.lang.String" itemvalue="typer" />
+            <item index="25" class="java.lang.String" itemvalue="Werkzeug" />
+            <item index="26" class="java.lang.String" itemvalue="cachelib" />
+            <item index="27" class="java.lang.String" itemvalue="packaging" />
+            <item index="28" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="29" class="java.lang.String" itemvalue="pathy" />
+            <item index="30" class="java.lang.String" itemvalue="click" />
+            <item index="31" class="java.lang.String" itemvalue="catalogue" />
+            <item index="32" class="java.lang.String" itemvalue="langcodes" />
+            <item index="33" class="java.lang.String" itemvalue="tqdm" />
+            <item index="34" class="java.lang.String" itemvalue="cymem" />
+            <item index="35" class="java.lang.String" itemvalue="typing_extensions" />
+            <item index="36" class="java.lang.String" itemvalue="charset-normalizer" />
+            <item index="37" class="java.lang.String" itemvalue="murmurhash" />
+            <item index="38" class="java.lang.String" itemvalue="thinc" />
+            <item index="39" class="java.lang.String" itemvalue="pytz" />
+            <item index="40" class="java.lang.String" itemvalue="idna" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
