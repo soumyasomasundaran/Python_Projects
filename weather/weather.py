@@ -1,6 +1,16 @@
 import streamlit as st
 import requests
+<<<<<<< HEAD
 API_KEY = "XXXXXXX"
+=======
+API_KEY = "XXXXXXXXXXXXXXXXX"
+def convert_to_celcius(temperature_in_kelvin):
+    return temperature_in_kelvin -273.15
+=======
+API_KEY = ''
+DEGREE_SIGN = u'\N{DEGREE SIGN}'
+
+>>>>>>> 7cadfba3f8d05140c09b22e003420c35f8aed465
 
 
 
