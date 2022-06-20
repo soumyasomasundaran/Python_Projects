@@ -8,7 +8,6 @@ def convert_to_celcius(temperature_in_kelvin):
 API_KEY = ''
 DEGREE_SIGN = u'\N{DEGREE SIGN}'
 
->>>>>>> 7673abf6844f6605cc945da9fb080124f3c77376
 
 
 
