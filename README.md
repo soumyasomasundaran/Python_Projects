@@ -1,4 +1,4 @@
-# LittleProjects_Youtube
+# Python Projects
 
 These are few Python projects done for Youtube channel 
 
