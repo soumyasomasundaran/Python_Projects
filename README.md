@@ -1,9 +1,15 @@
 # Python Projects
 
-These are few Python projects done for Youtube channel 
+
+These are few Python projects done for Youtube channel. 
 
 
 [MalayaliCode](https://www.youtube.com/malayalicode) 
+
+## 🌟 Support
+
+Give a ⭐ if you like this project!
+
 
 1. [Rock Paper Scissor](https://github.com/soumyas567/LittleProjects_Youtube/tree/main/RockpaperScissors)
 2. [Hangman](https://github.com/soumyas567/LittleProjects_Youtube/tree/main/Hangman)
@@ -12,3 +18,5 @@ These are few Python projects done for Youtube channel
 5. [Simple TODO in Flask](https://github.com/soumyas567/Python_Projects/tree/main/SimpleTODO)
 6. [Pomodoro App](https://github.com/soumyas567/Python_Projects/tree/main/pomodoro)
 7. [Weather App in Streamlit](https://github.com/soumyas567/Python_Projects/tree/main/weather)
+
+
