@@ -1,14 +1,7 @@
 # Python Projects
 <img src="https://github.com/soumyasomasundaran/Python_Projects/blob/main/Pink%20Simple%20Colorful%20Shapes%20Presentation.png" alt="drawing" style="width:600px;"/>
 
-These are few Python projects done for Youtube channel. 
-
-
-[MalayaliCode](https://www.youtube.com/malayalicode) 
-
-## 🌟 Support
-
-Give a ⭐ if you like this project!
+These are few Python projects done for Youtube channel [MalayaliCode](https://www.youtube.com/malayalicode) 
 
 
 1. [Rock Paper Scissor](https://github.com/soumyas567/LittleProjects_Youtube/tree/main/RockpaperScissors)
@@ -20,3 +13,7 @@ Give a ⭐ if you like this project!
 7. [Weather App in Streamlit](https://github.com/soumyas567/Python_Projects/tree/main/weather)
 
 
+
+# 🌟 Support
+
+Give a ⭐ if you like this project!
