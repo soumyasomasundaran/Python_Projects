@@ -1,5 +1,5 @@
 # Python Projects
-
+<img src="https://github.com/soumyasomasundaran/Python_Projects/blob/main/Pink%20Simple%20Colorful%20Shapes%20Presentation.png" alt="drawing" style="width:600px;"/>
 
 These are few Python projects done for Youtube channel. 
 
